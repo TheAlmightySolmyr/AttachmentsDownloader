@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "openpyxl>=3.1.5",
+    "prompt>=0.4.1",
 ]
 [dependency-groups]
 dev = [

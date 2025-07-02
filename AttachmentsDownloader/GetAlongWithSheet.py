@@ -10,6 +10,9 @@ class GetAlongWithSheet:
     def cell_range(self, coord1, coord2):
         return self.active_sheet[coord1:coord2]
     
+    def to_list(self):
+        return list(self.active_sheet.rows)
+
     def all_values_to_dict(self):
         result = {}
         for i in self.active_sheet.values:
