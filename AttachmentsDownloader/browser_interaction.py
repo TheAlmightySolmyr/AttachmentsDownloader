@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright
-from AttachmentsDownloader.url_former import form_url
+from url_former import form_url
 import prompt
 
 
